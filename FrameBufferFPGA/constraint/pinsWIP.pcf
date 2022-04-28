@@ -1,0 +1,48 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.01.27914
+
+# File Generated:     Jun 24 2017 13:04:57
+
+# Family & Device:    iCE40LP8K
+
+# Package:            CM81
+
+# ##############################################################################
+
+set_io <variable> <ActualPin>
+
+###IOSet Inputs
+set_io CAM_DATA         =======
+set_io CAM_DATA_0   B1 
+set_io CAM_DATA_1   B2 
+set_io CAM_DATA_2   C1 
+set_io CAM_DATA_3   C2 
+set_io CAM_DATA_4   D1 
+set_io CAM_DATA_5   D2 
+set_io CAM_DATA_6   E1 
+set_io CAM_DATA_7   E2
+
+set_io CAPTURE_READ             =
+set_io HREF         G1
+set_io VSYNC        G2 
+set_io RESET        H6          =
+set_io PCLK         H2         
+set_io SPI_CLK      A9
+
+
+
+###IOSet Outputs
+set_io SRAM_ADDR                ======
+set_io SRAM_ADD_0               =
+
+set_io READ_COMPLETE            =
+set_io WE_N                     =
+set_io CAPTURE_COMPLETE         =
+set_io SPI_MISO     B9          = (Output on Synth but Input on Pinout)
+set_io OE_N 
+
+set_io SRAM_DATA                ====== 
+set_io SRAM_DATA_0              =
